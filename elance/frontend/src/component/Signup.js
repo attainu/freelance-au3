@@ -90,7 +90,7 @@ const onFreelanceChange=()=>{
   .then(response=>{
       console.log(response)
       userchange(initials);
-      props.history.push("/app");
+      props.history.push("/");
       
   })
   //   localStorage.setItem('user',response){
@@ -265,7 +265,7 @@ if(!user.confirmPassword){
          </form>
           
            <div className="col-md-12 text-center my-3">
-           <a href="" className="btn btn-outline-secondary" type="button">SignUp with Google</a>  
+           <a href="!#" className="btn btn-outline-secondary" type="button">SignUp with Google</a>  
            </div>
            
                                   

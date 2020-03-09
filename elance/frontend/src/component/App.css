@@ -147,6 +147,28 @@ p{
     border-width: 0px;
 }
 
+.name{
+    text-decoration: underline;
+    
+}
+
+.feeds{
+    border-left:2px solid black; 
+    border-bottom:2px solid black; 
+}
+.feeds1{
+    border-left:2px solid black; 
+    border:2px solid black; 
+    display: flex;
+    flex-direction: column;
+}
+
+.flux{
+    align-items: flex-end;
+    vertical-align: center;
+    
+}
+
 /* .card-img-top-250{
     max-height: 250px;
     overflow: hidden;

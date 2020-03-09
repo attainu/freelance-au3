@@ -3,11 +3,11 @@
 
     border:1px solid black;
     border-radius: 50px;
-    background-image: url("../images/logSign.png") ;
+    /* background-image: url("../images/logSign.png") ; */
     background-position: center;
     background-size: auto;
     box-shadow: inset 0 0 10px #000000;
-    
+    background-color:#eee8f094;
 }
 
 
